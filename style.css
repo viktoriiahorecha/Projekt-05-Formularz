@@ -1,0 +1,28 @@
+#baner {
+    background-color: rgb(245, 142, 198);
+    width: 100%;
+    height: 150px;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#glowny {
+    background-color: rgb(250, 166, 211);
+    color: white;
+    height: 600px;
+    padding-top: 100px;
+    padding-left: 770px;
+    justify-content: center;
+    align-items: center;
+}
+
+#zgloszenie {
+    width: 200px;
+    height: 100px;
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(245, 142, 198);
+}

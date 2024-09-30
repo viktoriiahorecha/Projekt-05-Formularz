@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Nowy projekt</title>
+</head>
+<body>
+    <section id="baner">
+        <h1>Formularz</h1>
+    </section>
+    <section id="glowny">
+        <form>
+            <label for="imie">Imie</label>
+            <input type="text" id="imie" placeholder="wpisz imie">
+            <br>
+            <br>
+            <label for="nazwisko">Nazwisko</label>
+            <input type="text" id="nazwisko" placeholder="wpisz nazwisko">
+            <br>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="wpisz email">
+            <br>
+            <br>
+            <label for="telefon">Telefon</label>
+            <input type="number" id="telefon" placeholder="wpisz telefon">
+            <br>
+            <br>
+            <label for="haslo">Hasło</label>
+            <input type="password" id="haslo">
+            <br>
+            <br>
+            <input type="checkbox" id="option1" name="option1" value="zgadzam sie">
+            <label for="option1">Zgadzam się</label>
+
+            <br>
+            <input type="checkbox" id="option2" name="option2" value="nie zgadzam sie">
+            <label for="option2">Nie zgadzam się</label>
+            <br>
+            <br>
+            <label for="zgloszenie">Zgloszenie</label>
+            <input type="text" id="zgloszenie">
+            <br>
+            <br>
+            <label for="plec">Płec</label>
+            <input type="radio" id="K" value="K">
+            <label for="K">K</label>
+            <input type="radio" id="M" value="M">
+            <label for="M">M</label>
+            <br><br>
+            <label for="cars">Wybierz samochód</label>
+            <select name="cars" id="cars">
+                <option value="volvo">Volvo</option>
+                <option value="audi">Audi</option>
+                <option value="fiat">Fiat</option>
+            </select>
+            <br><br>
+                    <button type="reset">Resetuj</button>
+                    <button type="button" onclick="formularz()">Wyślij</button>
+                <p id="wynik"></p>
+        </form>
+    </section>
+</body>
+</html>
